@@ -1,5 +1,5 @@
 Fitter report for rle
-Sun May 04 17:12:25 2014
+Mon May 05 09:58:08 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -66,7 +66,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------+
 ; Fitter Summary                                                                 ;
 +-----------------------------------+--------------------------------------------+
-; Fitter Status                     ; Successful - Sun May 04 17:12:25 2014      ;
+; Fitter Status                     ; Successful - Mon May 05 09:58:08 2014      ;
 ; Quartus II 64-Bit Version         ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                     ; rle                                        ;
 ; Top-level Entity Name             ; rle                                        ;
@@ -162,12 +162,12 @@ applicable agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.14        ;
+; Average used               ; 1.60        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   4.8%      ;
+;     Processors 2-4         ;  20.0%      ;
 ;     Processors 5-8         ;   0.0%      ;
 +----------------------------+-------------+
 
@@ -432,7 +432,7 @@ applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/output_files/rle.pin.
+The pin-out file can be found in C:/Users/James Tang/Documents/GitHub/ECE_111_RLE/output_files/rle.pin.
 
 
 +------------------------------------------------------------------------------------------------------------+
@@ -3328,23 +3328,23 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.66 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.48 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
-Info (144001): Generated suppressed messages file C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/output_files/rle.fit.smsg
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:04
+Info (144001): Generated suppressed messages file C:/Users/James Tang/Documents/GitHub/ECE_111_RLE/output_files/rle.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 1440 megabytes
-    Info: Processing ended: Sun May 04 17:12:25 2014
-    Info: Elapsed time: 00:00:23
-    Info: Total CPU time (on all processors): 00:00:26
+    Info: Peak virtual memory: 1464 megabytes
+    Info: Processing ended: Mon May 05 09:58:09 2014
+    Info: Elapsed time: 00:00:26
+    Info: Total CPU time (on all processors): 00:00:27
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/output_files/rle.fit.smsg.
+The suppressed messages can be found in C:/Users/James Tang/Documents/GitHub/ECE_111_RLE/output_files/rle.fit.smsg.
 
 

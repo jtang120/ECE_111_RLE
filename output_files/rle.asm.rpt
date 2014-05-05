@@ -1,5 +1,5 @@
 Assembler report for rle
-Sun May 04 17:12:31 2014
+Mon May 05 09:58:17 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -10,7 +10,7 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/output_files/rle.sof
+  5. Assembler Device Options: C:/Users/James Tang/Documents/GitHub/ECE_111_RLE/output_files/rle.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sun May 04 17:12:31 2014 ;
+; Assembler Status      ; Successful - Mon May 05 09:58:17 2014 ;
 ; Revision Name         ; rle                                   ;
 ; Top-level Entity Name ; rle                                   ;
 ; Family                ; Arria II GX                           ;
@@ -79,24 +79,24 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+-------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                           ;
-+-------------------------------------------------------------------------------------+
-; File Name                                                                           ;
-+-------------------------------------------------------------------------------------+
-; C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/output_files/rle.sof ;
-+-------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------+
+; Assembler Generated Files                                             ;
++-----------------------------------------------------------------------+
+; File Name                                                             ;
++-----------------------------------------------------------------------+
+; C:/Users/James Tang/Documents/GitHub/ECE_111_RLE/output_files/rle.sof ;
++-----------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/output_files/rle.sof ;
-+----------------+----------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                      ;
-+----------------+----------------------------------------------------------------------------------------------+
-; Device         ; EP2AGX45DF29I5                                                                               ;
-; JTAG usercode  ; 0x01F5BCC8                                                                                   ;
-; Checksum       ; 0x01F5BCC8                                                                                   ;
-+----------------+----------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/James Tang/Documents/GitHub/ECE_111_RLE/output_files/rle.sof ;
++----------------+--------------------------------------------------------------------------------+
+; Option         ; Setting                                                                        ;
++----------------+--------------------------------------------------------------------------------+
+; Device         ; EP2AGX45DF29I5                                                                 ;
+; JTAG usercode  ; 0x01F5BCC8                                                                     ;
+; Checksum       ; 0x01F5BCC8                                                                     ;
++----------------+--------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -105,14 +105,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Sun May 04 17:12:27 2014
+    Info: Processing started: Mon May 05 09:58:12 2014
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off rle -c rle
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 582 megabytes
-    Info: Processing ended: Sun May 04 17:12:31 2014
-    Info: Elapsed time: 00:00:04
+    Info: Processing ended: Mon May 05 09:58:17 2014
+    Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:05
 
 

@@ -1,8 +1,8 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/rle_testbench.v
-source_file = 1, C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/rle.v
+source_file = 1, C:/Users/James Tang/Documents/GitHub/ECE_111_RLE/rle_testbench.v
+source_file = 1, C:/Users/James Tang/Documents/GitHub/ECE_111_RLE/rle.v
 source_file = 1, VerilogTest.v
-source_file = 1, C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/db/rle.cbx.xml
+source_file = 1, C:/Users/James Tang/Documents/GitHub/ECE_111_RLE/db/rle.cbx.xml
 source_file = 1, /users/james tang/documents/plaintext.dat
 design_name = rle
 instance = comp, \rle_size[0]~output , rle_size[0]~output, rle, 1

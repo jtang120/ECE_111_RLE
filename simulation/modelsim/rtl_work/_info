@@ -2,42 +2,24 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Users\James Tang\Documents\GitHub\ECE_111_RLE_ENCODING_JTDS\simulation\modelsim
+Z0 dC:\Users\James Tang\Documents\GitHub\ECE_111_RLE\simulation\modelsim
 vrle
-IYjeHOWbgb[8WaO@8CXlTd0
+!i10b 1
+!s100 h>VYRmRUzSe`c:H9S5>=[0
+IG7kkD38:EnYG5SG9GC_Re2
 Vi0clLSb4CC^D[PY4jBjXb2
-Z1 dC:\Users\James Tang\Documents\GitHub\ECE_111_RLE_ENCODING_JTDS\simulation\modelsim
+Z1 dC:\Users\James Tang\Documents\GitHub\ECE_111_RLE\simulation\modelsim
 w1399239049
-8C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/rle.v
-FC:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/rle.v
+8C:/Users/James Tang/Documents/GitHub/ECE_111_RLE/rle.v
+FC:/Users/James Tang/Documents/GitHub/ECE_111_RLE/rle.v
 L0 1
-Z2 OV;L;10.1d;51
-r1
-31
-Z3 o-work work -O0
-!i10b 1
-!s100 UlhA=ZF^T:XWgfdf1;bdz0
-!s85 0
-!s108 1399239154.591000
-!s107 C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/rle.v|
-!s90 -reportprogress|300|-work|work|C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/rle.v|
-!s101 -O0
-vrle_testbench
-!i10b 1
-!s100 d3J_X<e:6VZab42CEN8^_3
-IbJA^c0HBLCjZ9E;Q0HP392
-Vez3Z6:03M7de=?=oYZRXN3
-R1
-w1399193327
-8C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/rle_testbench.v
-FC:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/rle_testbench.v
-L0 1
-R2
+OV;L;10.1d;51
 r1
 !s85 0
 31
-!s108 1399239154.744000
-!s107 C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/rle_testbench.v|
-!s90 -reportprogress|300|-work|work|C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/rle_testbench.v|
+!s108 1399309170.570000
+!s107 C:/Users/James Tang/Documents/GitHub/ECE_111_RLE/rle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/James Tang/Documents/GitHub/ECE_111_RLE|C:/Users/James Tang/Documents/GitHub/ECE_111_RLE/rle.v|
 !s101 -O0
-R3
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work {+incdir+C:/Users/James Tang/Documents/GitHub/ECE_111_RLE} -O0

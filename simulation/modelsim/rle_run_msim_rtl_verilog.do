@@ -5,5 +5,5 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -vlog01compat -work work +incdir+C:/Users/James\ Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS {C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/rle.v}
+vlog -vlog01compat -work work +incdir+C:/Users/James\ Tang/Documents/GitHub/ECE_111_RLE {C:/Users/James Tang/Documents/GitHub/ECE_111_RLE/rle.v}
 

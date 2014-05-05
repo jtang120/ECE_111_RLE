@@ -55,7 +55,7 @@ output	done; // done is a signal to indicate that encryption of the frame is com
 //only declared 4 because it will take 4 cycle to process 4x2 number pairs per 32 bit sequence.
 
 reg [63:0] readin;
-reg [31:0] readtemp;		//stores port_A_data_out to use in always
+//reg [31:0] readtemp;		//stores port_A_data_out to use in always
 reg [31:0] messagestart;
 reg [31:0] rleplace;
 reg startreg; //for start 
@@ -192,7 +192,7 @@ always @(posedge port_A_clk)begin
 					shiftcount <= 0;
 					readcheck <= 1; //new stuff
 					readin <= 0; 
-					readtemp <= 0;
+					//readtemp <= 0;
 				
 					startreg <= 1; 
 					
