@@ -1,0 +1,6 @@
+
+State Machine - |rle|initialcounter
+Name initialcounter.000 initialcounter.010 initialcounter.001 
+initialcounter.000 0 0 0 
+initialcounter.001 1 0 1 
+initialcounter.010 1 1 0 

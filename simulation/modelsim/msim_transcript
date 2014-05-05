@@ -1,0 +1,91 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do rle_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/James\ Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS {C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/rle.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rle
+# 
+# Top level modules:
+# 	rle
+# 
+vlog -reportprogress 300 -work work {C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/rle.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rle
+# 
+# Top level modules:
+# 	rle
+vlog -reportprogress 300 -work work {C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/rle_testbench.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rle_testbench
+# 
+# Top level modules:
+# 	rle_testbench
+vsim work.rle_testbench
+# vsim work.rle_testbench 
+# Loading work.rle_testbench
+# Loading work.rle
+# ** Warning: (vsim-PLI-3003) C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/rle.v(82): [TOFD] - System task or function '$disp' is not defined.
+# 
+#         Region: /rle_testbench/rle_inst
+# ** Warning: (vsim-PLI-3003) C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/rle.v(88): [TOFD] - System task or function '$disp' is not defined.
+# 
+#         Region: /rle_testbench/rle_inst
+# ** Warning: (vsim-PLI-3003) C:/Users/James Tang/Documents/GitHub/ECE_111_RLE_ENCODING_JTDS/rle.v(93): [TOFD] - System task or function '$disp' is not defined.
+# 
+#         Region: /rle_testbench/rle_inst
+add wave -r /*
+run -all
+# Error: memory reference not word aligned!
+# 
+# Error: memory reference not word aligned!
+# 
+# Error: memory reference not word aligned!
+# 
+# Error: memory reference not word aligned!
+# 
+# Error: memory reference not word aligned!
+# 
+# -----------
+# 
+# Plaintext 1
+# 
+# -----------
+# 
+# 00000000
+# 
+# 00000000
+# 
+# 00000000
+# 
+# 00000000
+# 
+# 00000000
+# 
+# 00000000
+# 
+# 00000000
+# 
+# 00000000
+# 
+# 00000000
+# 
+# 00000000
+# 
+# 00000028
+# 
+# 864d7f00
+# 
+# Error: memory reference not word aligned!
+# 
+# Error: memory reference not word aligned!
+# 
+run -all
